@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="lidar_processing" type="lidar_processing_node" name="lidar_processing_node" output="screen">
+    <param name="sub_pcl_topic" type="string" value="/velodyne_points" />
+    <param name="sub_state_topic" type="string" value="/lidar_state" />
+    <param name="pub_topic" type="string" value="/filtered_points" />
+    <!-- <param name="x_min" value="-10.0" /> -->
+  </node>
+</launch>
