@@ -5,8 +5,9 @@ This package filters point clouds for autonomous driving tasks.
 ## Dependency
 1. Armadillo (Version: 1:9.800.4+dfsg-1build1)
 2. mlpack (Version: 3.2.2)
+
    https://github.com/Leeseunghun03/mlpack-ubuntu-install
-3. Other Defalut Library (Ex. PCL...)
+4. Other Defalut Library (Ex. PCL...)
 
 ## Feature
 - Voxel Filtering
